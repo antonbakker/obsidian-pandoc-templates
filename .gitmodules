@@ -1,0 +1,3 @@
+[submodule "kaobook"]
+	path = kaobook
+	url = git@github.com:fmarotta/kaobook.git
