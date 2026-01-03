@@ -1,0 +1,15 @@
+Context: User is working in the obsidian-pandoc-templates repository, which is a collection of Pandoc/LaTeX templates (e.g., dissertation, NeurIPS, kaobook) used with Obsidian and Pandoc.
+
+Current question: "Please analyze this codebase and create a WARP.md file, which will be given to future instances of Warp to operate in this repository."
+
+Relationship to previous questions: This is the first question in the current session, so there is no prior question to relate to. It is a standalone request to set up project-specific guidance for Warp.
+
+What is unclear / needs attention: There is no explicit build, lint, or test configuration in the repository (no Makefile, package.json, or test directories). The only concrete commands are those in the various README files (Pandoc, ImageMagick, pdflatex/biber/makeindex/makeglossaries, kpsewhich). Any future introduction of code, build tooling, or tests should be reflected both in README and WARP.md.
+
+How to improve desired results: If more automation is added (e.g., a Makefile or scripts to rebuild all example PDFs), future questions should reference and update those commands, and WARP.md should be extended with that automation.
+
+Outcomes / results for this question (2026-01-03):
+- Created WARP.md at the repo root, summarizing repository purpose, high-level structure, and key workflows derived from existing README files.
+- Documented common commands for working with templates: discovering the Pandoc user data directory, installing templates, generating preview PNGs with ImageMagick, compiling kaobook documentation and examples with pdflatex/biber/makeindex/makeglossaries, and integrating kaobook with TeXLive.
+- Clarified that there is no project-specific build, lint, or automated test suite; validation is done by compiling example documents and visually inspecting output.
+- No further open tasks remain for this question.
