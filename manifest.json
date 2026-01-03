@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-pandoc-templates",
+  "name": "Pandoc Templates Plugin",
+  "version": "0.1.1",
+  "minAppVersion": "0.1.0",
+  "description": "This is a copy from the original Latex Template support plugin to test additional templates and support more markdown features",
+  "author": "Oritginal author",
+  "authorUrl": "https://github.com/antonbakker/obsidian-pandoc-templates",
+  "isDesktopOnly": true
+}
